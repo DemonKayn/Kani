@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fixed: added comma to meta viewport tag -->
+  <title>Voices for Justice</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Removed top banner: ✊ Stand with us for justice, equality, and human rights for all! ✊ -->
+  <!-- <div class="top-banner">
+    ✊ Stand with us for justice, equality, and human rights for all! ✊
+  </div> -->
+
+  <!-- Navigationbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Voices for Justice</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#about">About</a></li> <!-- Fixed: added missing closing </li> tag -->
+          <li class="nav-item"><a class="nav-link" href="#campaigns">Campaigns</a></li> <!-- Fixed: added missing closing </li> tag -->
+          <li class="nav-item"><a class="nav-link" href="#involve">Get Involved</a></li> <!-- Fixed: added missing closing </li> tag -->
+          <li class="nav-item"><a class="nav-link" href="#newsletter">Newsletter</a></li> <!-- Fixed: added missing closing </li> tag -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero text-white text-center"> <!-- Fixed: changed text-centre to text-center -->
+    <div class="container py-5">
+      <h1 class="display-4">Stand Up. Speak Out. Make a Change.</h1>
+      <p class="lead">Join our fight for justice and equality around the world</p>
+      <a href="#involve" class="btn btn-lg btn-primary mt-3">Get Involved</a>
+    </div>
+  </header>
+
+  <!-- Section Divider with Icon -->
+  <div class="section-divider"><span>🕊️</span></div>
+
+  <!-- About Section - New Feature -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="lead text-center">Our mission is to advocate for human rights, justice, and equality worldwide. We empower communities, raise awareness, and drive change through impactful campaigns and grassroots action.</p>
+    </div>
+  </section>
+
+  <!-- Section Divider with Icon -->
+  <div class="section-divider"><span>✊</span></div>
+
+  <!-- Campaigns -->
+  <section id="campaigns" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Current Campaigns</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="crights.jpg" class="card-img-top" alt="Campaign 1"> <!-- Fixed: corrected image filename from imaeg1.jpg to image1.jpg -->
+            <div class="card-body">
+              <h5 class="card-title">Children's Rights</h5>
+              <p class="card-text">Protecting the rights of children.</p>
+            </div>
+          </div>
+        </div>
+        <!-- New Campaign Card -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="frdom.jpg" class="card-img-top" alt="Campaign 2">
+            <div class="card-body">
+              <h5 class="card-title">Freedom of Expression</h5>
+              <p class="card-text">Defending the right to speak and be heard without fear.</p>
+            </div>
+          </div>
+        </div>
+        <!-- New Campaign Card -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="gndr=.jpg" class="card-img-top" alt="Campaign 3">
+            <div class="card-body">
+              <h5 class="card-title">Gender Equality</h5>
+              <p class="card-text">Promoting equal rights and opportunities for all genders.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved Section - Added Content -->
+  <section id="involve" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">How Can You Help?</h2>
+      <div class="row g-4 align-items-center justify-content-center">
+        <div class="col-md-8 mx-auto">
+          <h4 class="text-center">Ways You Can Help</h4>
+          <div class="d-flex flex-wrap gap-3 mb-3 justify-content-center">
+            <a href="donate%20here.html" class="btn btn-warning fw-bold">Donate</a>
+            <a href="#volunteer" class="btn btn-success fw-bold" onclick="alert('Thank you for your interest in volunteering! We will contact you soon.'); return false;">Volunteer</a>
+            <a href="#share" class="btn btn-info fw-bold" onclick="navigator.clipboard.writeText('Join me in supporting human rights! voicesforjustice.org'); alert('Message copied! Share it on your social media.'); return false;">Share Our Message</a>
+          </div>
+          <ul class="list-group list-group-flush mb-3 text-center">
+            <li class="list-group-item bg-transparent text-white"><strong>Volunteer:</strong> Join our team and make a direct impact in your community.</li>
+            <li class="list-group-item bg-transparent text-white"><strong>Donate:</strong> Support our campaigns and help us reach more people in need.</li>
+            <li class="list-group-item bg-transparent text-white"><strong>Share:</strong> Spread the word on social media and raise awareness for human rights.</li>
+            <li class="list-group-item bg-transparent text-white"><strong>Attend Events:</strong> Participate in rallies, workshops, and online webinars.</li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Get Involved" class="img-fluid rounded shadow" style="max-height: 300px; object-fit: cover;">
+          <p class="mt-3 text-white">Every action counts. Together, we can make a difference!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Subscribe to Our Newsletter</h2>
+      <form class="row justify-content-center" id="newsletterForm">
+        <div class="col-md-12"> <!-- Full width for modern look -->
+          <div class="input-group flex-nowrap mb-2">
+            <span class="input-group-text bg-transparent border-0" style="color:#ffd700;font-size:1.5rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.118V5.383zm-.034 6.876-5.428-3.26L8 9.583l-1.538-.584-5.428 3.26A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 5.383v5.735l4.708-2.91L1 5.383z"/></svg>
+            </span>
+            <input type="email" id="emailInput" class="form-control mb-0" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary w-auto px-4 ms-2">Subscribe</button>
+          </div>
+          <p id="formMessage" class="mt-2 text-danger"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Newsletter Confirmation Modal - New Feature -->
+  <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="newsletterModalLabel">Thank You!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          You have successfully subscribed to our newsletter.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Voices for Justice</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <!-- Smooth Scroll Script - New Feature -->
+  <script>
+    // Smooth scroll for navbar links
+    document.querySelectorAll('a.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href.startsWith('#')) {
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

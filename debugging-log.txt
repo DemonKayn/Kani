@@ -1,0 +1,31 @@
+Debugging Log for Human Rights Advocacy Homepage
+--------------------------------------------------
+
+Bug Report and Fixes:
+
+1. Issue: Incorrect Bootstrap class 'text-centre' used in hero section.
+   Fix: Changed to 'text-center' (Bootstrap uses American spelling).
+
+2. Issue: Missing closing </li> tags in navbar.
+   Fix: Added missing </li> tags for each navbar item.
+
+3. Issue: Required images not found in download folder.
+   Change: Created and added new images (crights.jpg, frdom.jpg, gndr=.jpg) for the campaign sections.
+
+4. Issue: Newsletter form button missing type="submit".
+   Fix: Added type="submit" to the button for proper form handling.
+
+5. Issue: JavaScript error - used getElementbyId instead of getElementById.
+   Fix: Corrected to getElementById and added e.preventDefault().
+
+6. Issue: CSS error - missing colon in 'color white' property.
+   Fix: Changed to 'color: white;' to fix the property declaration.
+
+7. Issue: Meta viewport tag missing comma between properties.
+   Fix: Added comma in meta viewport tag between width and initial-scale.
+
+
+Charot lang to number 8 sir :>
+8. Issue: UI/UX color scheme was dull and uninspiring.
+   Fix: Added vibrant and uplifting colors in the CSS to make the interface more lively and emotionally resonant.
+
